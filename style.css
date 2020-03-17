@@ -1,0 +1,19 @@
+.fa-th, .fa-bars {
+  font-size: 23px;
+  padding-left: 10px;
+  padding-top:  10px;
+  cursor: pointer;
+}
+
+#switch-items {
+  text-align: center;
+  float: right;
+}
+
+#search-bar {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
