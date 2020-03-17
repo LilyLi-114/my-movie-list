@@ -16,7 +16,7 @@
   const dataPanel = document.getElementById('data-panel')
   let paginationData = []
 
-  //串接api
+  //串接api //更改commit測試
   axios.get(INDEX_URL)
     .then((response) => {
       data.push(...response.data.results)

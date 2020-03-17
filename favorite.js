@@ -1,6 +1,6 @@
 
 (function () {
-  //清單來自local Storage不是api
+  //清單來自local Storage不是api //增加commit 測試
   //卡片設計有差異,無須有加入收藏的按鈕,而是移出按鈕
   const BASE_URL = 'https://movie-list.alphacamp.io'
   const INDEX_URL = BASE_URL + '/api/v1/movies/'
