@@ -15,7 +15,7 @@
   //將資料放到網頁中
   const dataPanel = document.getElementById('data-panel')
   let paginationData = []
-
+  console.log(data.length)
   //串接api //更改commit測試
   axios.get(INDEX_URL)
     .then((response) => {
